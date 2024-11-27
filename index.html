@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product list with cart</title>
+    <link rel="shortcut icon" href="assets/Images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <div class="productTab">
+            <h3>Desserts</h3>
+            <div class="listProduct">
+                <div class="item">
+                </div>
+            </div>
+        </div>
+        <div class="cartTab">
+            <div class="listCart">
+                <div class="item">
+                    <h3>Your Cart(0)</h3>
+                </div>
+                <img src="assets/Images/illustration-empty-cart.svg" alt="">
+                <p class="cartText">Your added items will appear here</p>
+            </div>
+        </div>
+    </div>
+
+    <dialog class="modal">
+        <img src="assets/Images/icon-order-confirmed.svg" alt="">
+        <h2>Order Confirmed</h2>
+        <p>We hope you enjoyed your food</p>
+        <div class="modalItems">
+            <div class="item">
+               
+                
+            </div>
+            <div class="totalOrder">
+                <div> Order Total</div>
+                <div class="orderPrice">$46.00</div>
+            </div>
+        </div>
+        <button class="newOrder">Start New Order</button>
+    </dialog>
+
+    <script src="index.js"></script>
+</body>
+</html>

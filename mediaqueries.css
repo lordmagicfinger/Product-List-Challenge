@@ -1,0 +1,24 @@
+@media screen and (max-width: 850px) {
+    .listProduct{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .listProduct .item .category{
+        font-size: small;
+    }
+    .listProduct .item .addCart{
+        padding: 0 10px;
+    }
+}
+@media screen and (max-width:600px) {
+    .container{
+        display: block;
+    }
+    .productTab h3{
+        font-size: 3rem;
+        margin-left: 15px;
+    }
+    .listProduct{
+        grid-template-columns: 1fr;
+    }
+}
